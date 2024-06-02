@@ -7,64 +7,86 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div>
-        This is not a real online service! You know you need something like 
-        this in your life to helo you realize your deepest dreams.
+    <div id="images">
+        <img class="background" src="halie-west-25xggax4bSA-unsplash.jpg" alt="leafs" >
+        <div class="logoNote">
+            <img  id="logo" src="odin-lined.png" alt="odin-lined">
+            <div class="Odin">ODIN</div>
+        </div>
+    </div>
+    <div class="notes">
+        <div>
+            This is not a real online service! You know you need something like 
+            this in your life to help you realize your deepest dreams.
+            
+        </div>
+        <div>
+            Sign up now to get started.
+        </div>
         
-    </div>
-    <div>
-        Sign up now to get started.
-    </div>
-    <div>
-        you know you want to
-    </div>
-    
+        <div>
+            <p></p>
+            You know you want to.
+        </div>
+
+        
 
 
-    <form action="result.html" method="get">
-        <fieldset>
+        <form action="result.html" method="get">
+            <fieldset>
 
-            <legend>
-                <span>Let's do this!</span>
-            </legend>
-            <div>
-                <label for="name">FIRST NAME</label>
+                <legend>
+                    <span>Let's do this!</span>
+                </legend>
+            <div class="colum">
+                <div class="test1">
+                    <label for="name">FIRST NAME</label>
+                    <input   type="text" name="firstname" id="name" placeholder="First name" required>
+                </div>
+                <div>
+                    <label for="Lastname">LAST NAME</label>
+                    <input type="text" name="lastname" id="Lastname" placeholder="Lastname" required>
+                </div>
+            </div>
+            <div class="colum">
+                <div>
+                    <label for="Email">EMAIL</label>
+                    <input type="email"name="email" id="Email" placeholder="you@example.com" required>
+                </div>
+                <div>
+                    <label for="PHONE">PHONE NUMBER</label>
+                    <input type="number" name="PHONE" id="PHONE" placeholder="Phone number" required>
+                </div>
+            </div>
+            <div class="colum">
+                <div>
+                    <label for="PASSWORD">PASSWORD</label>
+                    <input type="password" name="password" id="PASSWORD" placeholder="password" minlength="8" maxlength="16" required>
+                    <label class="error" for="note">chose a password 8 to 16 characters</label>
+
+                </div>
+                <div>
+                    <label for="CONFIRM PASSWORD">CONFIRM PASSWORD</label>
+                    <input type="password" name="password" id="CONFIRM PASSWORD" placeholder="confirm password" minlength="8" maxlength="16" required>
+                    <label class="error" for="note">chose a password 8 to 16 characters</label>
+                </div>
+                
+                
+                
                 
             </div>
-            <input type="text" name="firstname" id="name" placeholder="First name">
-            <div>
-                <label for="Lastname">LAST NAME</label>
-            </div>
-            <input type="text" name="lastname" id="Lastname" placeholder="Lastname">
-            <DIv>
-                <label for="Email">EMAIL</label>
-            </DIv>
-            <input type="email"name="email" id="Email" placeholder="you@example.com">
-            <div>
-                <label for="PHONE">PHONE NUMBER</label>
-            </div>
-            <input type="number" name="PHONE" id="PHONE" placeholder="Phone number">
-            <div>
-                <label for="PASSWORD">PASSWORD</label>
-            </div>
-            <input type="password" name="password" id="PASSWORD" placeholder="password" >
-            <div>
-                <label for="CONFIRM PASSWORD">CONFIRM PASSWORD</label>
-            </div>
-            <input type="password" name="password" id="CONFIRM PASSWORD" placeholder="confirm password" >
-            <div>       
-                 <button type="submit">Create Account</button>
-            </div>
-            <div>Already have an account? Log in</div>
-            <button type="button">click</button>
-
             
-
-
-
-
+            
         </fieldset>
-    </form>
+        <div>       
+            <button type="submit">Create Account</button>
+        </div>
+        <div>Already have an account? Log in</div>
+
+
+
+        </form>
+    </div>
 </body>
 
 </html>
